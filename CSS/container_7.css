@@ -1,0 +1,195 @@
+.container_7{
+
+    width: 1170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+.container_7_inner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container7_tovar{
+    width: 200px;
+    height: 270px;
+    border: 2px solid #C4C4C4;
+    margin: 30px 30px 30px 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container_7 p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    margin: 5px 0 10px 0;
+}
+
+.container_7 p span{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    
+}
+
+.container_7 h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.015em;
+
+    margin-top: 30px;
+
+}
+
+.tovar_img1{
+    width: 200px;
+    height: 200px;
+    background: url(../images/slippers/Rectangle26.png);
+}
+.tovar_img2{
+    width: 200px;
+    height: 200px;
+    background: url(../images/slippers/Rectangle27.png);
+}
+.tovar_img3{
+    width: 200px;
+    height: 200px;
+    background: url(../images/slippers/Rectangle28.png);
+}
+.tovar_img4{
+    width: 200px;
+    height: 200px;
+    background: url(../images/slippers/Rectangle26_1.png);
+}
+.tovar_img5{
+    width: 200px;
+    height: 200px;
+    background: url(../images/slippers/Rectangle27_1.png);
+}
+.tovar_img6{
+    width: 200px;
+    height: 200px;
+    background: url(../images/slippers/Rectangle28_1.png);
+}
+
+.tovar_img7{
+    width: 200px;
+    height: 200px;
+    background: url(../images/slippers/Rectangle26_2.png);
+}
+.tovar_img8{
+    width: 200px;
+    height: 200px;
+    background: url(../images/slippers/Rectangle27_2.png);
+}
+.tovar_img9{
+    width: 200px;
+    height: 200px;
+    background: url(../images/slippers/Rectangle_28_2.png);
+}
+
+.tovar_img10{
+    width: 200px;
+    height: 200px;
+    background: url(../images/slippers/Rectangle26_3.png);
+}
+.tovar_img11{
+    width: 200px;
+    height: 200px;
+    background: url(../images/slippers/Rectangle_27_3.png);
+}
+.tovar_img12{
+    width: 200px;
+    height: 200px;
+    background: url(../images/slippers/Rectangle28_3.png);
+}
+
+
+.tovar_img13{
+    width: 200px;
+    height: 200px;
+    background: url(../images/autumn_spring/Rectangle26.png);
+}
+.tovar_img14{
+    width: 200px;
+    height: 200px;
+    background: url(../images/autumn_spring/Rectangle27.png);
+}
+.tovar_img15{
+    width: 200px;
+    height: 200px;
+    background: url(../images/autumn_spring/Rectangle28.png);
+}
+.tovar_img16{
+    width: 200px;
+    height: 200px;
+    background: url(../images/autumn_spring/Rectangle26_1.png);
+}
+.tovar_img17{
+    width: 200px;
+    height: 200px;
+    background: url(../images/autumn_spring/Rectangle27_1.png);
+}
+.tovar_img18{
+    width: 200px;
+    height: 200px;
+    background: url(../images/autumn_spring/Rectangle28_1.png);
+}
+
+.tovar_img19{
+    width: 200px;
+    height: 200px;
+    background: url(../images/autumn_spring/Rectangle26_2.png);
+}
+.tovar_img20{
+    width: 200px;
+    height: 200px;
+    background: url(../images/autumn_spring/Rectangle27_2.png);
+}
+.tovar_img21{
+    width: 200px;
+    height: 200px;
+    background: url(../images/autumn_spring/Rectangle28_2.png);
+}
+
+.tovar_img22{
+    width: 200px;
+    height: 200px;
+    background: url(../images/autumn_spring/Rectangle26_3.png);
+}
+.tovar_img23{
+    width: 200px;
+    height: 200px;
+    background: url(../images/autumn_spring/Rectangle27_3.png);
+}
+.tovar_img24{
+    width: 200px;
+    height: 200px;
+    background: url(../images/autumn_spring/Rectangle28_3.png);
+}
+
+@media screen and (max-width: 360px){
+    .container_7{
+        width: 360px;
+    }
+    .container_7_inner{
+        flex-direction: column;
+
+    }
+}

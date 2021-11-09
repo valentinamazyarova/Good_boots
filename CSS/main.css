@@ -1,0 +1,9 @@
+main{
+    width: 1170px;
+    
+}
+@media screen and (max-width: 360px){
+    main{
+        width: 360px;
+    }
+}
