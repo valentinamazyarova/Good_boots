@@ -70,6 +70,42 @@
     margin-bottom: 50px;
 }
 
+@media screen and (max-width: 640px){
+    .container_5{
+        width: 640px;
+    }
+
+    .section3{
+        width: 400px;
+        
+    }
+
+    
+    .line_3{
+        width: 340px;
+
+    }
+
+    .container_inner_section3{
+        align-items: center;
+    }
+    
+    .fon1{
+        display: none;
+
+    }
+
+    .text{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .section3_main_line{
+        display: none;
+    }
+
+}
+
 @media screen and (max-width: 360px){
     .container_5{
         width: 360px;

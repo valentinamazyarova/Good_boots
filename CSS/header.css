@@ -70,6 +70,72 @@ header a{
    
 }
 
+
+@media screen and (max-width: 640px){
+    header{
+        width: 640px;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .container_1{
+        display: none;
+    }
+
+    .logo{
+        margin: 0;
+    }
+
+    #sidebar {
+        display: block;
+        position:absolute;
+        top: 82px;
+        right: -200px;
+        width: 200px;
+        
+        background: rgb(255, 255, 255);
+
+        -moz-transition: all 300ms;
+        -webkit-transition: all 300ms;
+        transition: all 300ms;
+
+    }
+    #sidebar.active {
+        right: 0;
+    }
+
+     .toggle-btn {
+        position: absolute;
+        right: 10px;
+        top: 47px;
+        cursor: pointer;
+    }
+
+     .toggle-btn span {
+        display: block;
+        width: 25px;
+        height: 4px;
+        background-color: #666;
+        margin: 4px;
+    }
+    #sidebar ul{
+        padding-left: 10px;
+    }
+
+    #sidebar ul li {
+        width: 90%;
+        margin-left: 0;
+        font-size: 1.1em;
+        padding: 15px 5px 15px;
+        list-style: none;
+    }
+    #sidebar ul li a:hover {
+        border-bottom: 2px solid #92B5EE;
+    }
+
+
+}
+
 @media screen and (max-width: 360px){
     header{
         width: 360px;
@@ -134,3 +200,5 @@ header a{
 
 
 }
+
+

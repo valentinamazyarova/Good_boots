@@ -120,6 +120,28 @@ footer{
     margin-left: 12px;
 }
 
+@media screen and (max-width: 640px){
+    footer{
+        width: 640px;
+        height: 360px;
+    }
+
+    .section_footer_1{
+        width: 640px;
+        flex-direction: column;
+    }
+
+    .text_footer{
+    
+        margin: 20px 50px 0 50px;
+    }
+
+    .text_footer_contacts{
+    
+        margin-bottom: 5px;
+    }
+}
+
 @media screen and (max-width: 360px){
     footer{
         width: 360px;

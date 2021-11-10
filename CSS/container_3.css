@@ -63,6 +63,56 @@
     background: #C5C5C5;
 }
 
+@media screen and (max-width: 640px){
+    .container_3{
+        width: 640px;
+        
+    }
+    
+    .fon{
+
+        margin-top: 250px;
+        width: 640px;
+        height: 500px;  
+        background: radial-gradient(50% 50% at 50% 50%, #92B5EE 0%, rgba(148, 183, 239, 0) 100%);
+        
+    }
+    
+    .container_3 p{
+        width: 540px;
+    
+        font-size: 14px;
+        line-height: 1.5;
+        
+    }
+    
+    
+    .container_3 h2{
+        font-size: 24px;
+        line-height: 28px;
+        margin: 30px 0 5px 0;
+    }
+    
+    .container_3 h3{
+        font-size: 18px;
+        line-height: 21px;
+        margin: 50px 0 0 0;
+    } 
+    
+    .container_3 .line{
+        width: 100px;
+
+    }
+    
+    .line_2{
+        width: 640px;
+        margin-top: 50px;
+
+    }
+}
+
+
+
 @media screen and (max-width: 360px){
     .container_3{
         width: 360px;
@@ -106,3 +156,4 @@
 
     }
 }
+

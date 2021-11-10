@@ -184,6 +184,16 @@
     background: url(../images/autumn_spring/Rectangle28_3.png);
 }
 
+@media screen and (max-width: 640px){
+    .container_7{
+        width: 640px;
+    }
+    .container_7_inner{
+        flex-direction: column;
+
+    }
+}
+
 @media screen and (max-width: 360px){
     .container_7{
         width: 360px;

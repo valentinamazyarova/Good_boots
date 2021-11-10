@@ -8,9 +8,20 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+
+@media screen and (max-width: 640px){
+    body{
+        max-width: 640px;
+    }
+}
+
+
 @media screen and (max-width: 360px){
     body{
         max-width: 360px;
     }
 }
+
+
+
 
